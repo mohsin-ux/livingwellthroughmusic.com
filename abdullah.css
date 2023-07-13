@@ -1,0 +1,171 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+
+
+  /* general designing */
+
+  .container {
+    margin: 0 6%;
+  }
+  .heading2 {
+    font-size: x-large;
+    text-align: center;
+    /* padding: 30px 0 0 0; */
+  }
+  .para {
+    font-size: 1.3rem;
+    line-height:  2rem;
+  }
+}
+
+/* ----------------- navbar -------------------- */
+.navbar {
+  height: 100px;
+  background-color: rgb(201, 183, 85);
+  display: flex;
+  align-items: center;
+}
+.navbar .box {
+  width: 33.5%;
+  height: inherit;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.navbar li 
+{
+
+  margin: 0 1rem;
+  color: white;
+}
+.navbar .box img{
+    height: 300px;
+}
+
+/* -------------- background ---------------- */
+.background {
+  height: 400px;
+  background: rgba(0, 0, 0, 0.7) url("pictures/background.jpg");
+  background-size:  cover;
+  background-blend-mode: darken;
+  color: white;
+  padding: 100px 70px;
+}
+.background .text {
+  width: 70%;
+  height: 80%;
+}
+
+/* ------------ services offered ------------ */
+.services {
+  padding: 30px;
+}
+.services .box {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.services .innerbox {
+  width: 30%;
+  height: 300px;
+  padding: 20px 0;
+  border: 1px solid;
+  background-color: rgb(235, 236, 130);
+  border-radius: 25px;
+  text-align: center;
+}
+.services img{
+    width: 35%;
+    height: 120px;
+    border-radius: 90%;
+    object-fit: cover;
+}
+.services button{
+    background-color: gold;
+    padding: 8px 30px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.services a{
+    padding: 10px;
+    color: black;
+}
+
+
+/* --------------- about me ----------- */
+.about-me {
+    padding: 30px;
+}
+.about-me .box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.about-me .innerbox {
+  width: 46.8%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.about-me img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* ---------------- footer ------------------- */
+.footer {
+    padding: 20px ;
+}
+.footer .box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 400px;
+}
+.footer .innerbox{
+    width: 100%;
+    height: 100%;
+
+}
+.footer img{
+    width: 100%;
+    height: 90%;
+}
+.footer li{
+    list-style: none;
+    padding: 10px 0 0 0;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+/* form */
+.footer .name{
+    width: 100%;
+}
+.footer  button{
+    background-color: gold;
+    padding: 5px 25px;
+    border: 1px solid;
+    border-radius: 20px;
+}
