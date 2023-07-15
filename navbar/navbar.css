@@ -1,0 +1,65 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  /*-------------- general  styles ---------------*/
+  .container {
+    margin: 0 6%;
+  }
+  .heading2 {
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  .para {
+    line-height: 30px;
+    letter-spacing: 1px;
+    stroke: red;
+    stroke-width: 500px;
+  }
+  
+  /* ----------------- navbar -------------------- */
+  .navbar {
+    height: 100px;
+    background-color: rgb(255, 255, 186);
+    display: flex;
+    align-items: center;
+  }
+  .navbar .box {
+    width: 33%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .navbar li {
+    margin: 0 1rem;
+    color: white;
+  }
+  .navbar .box img {
+    height: 300px;
+  }
+  .navbar a:hover {
+    text-decoration: underline gold 30%;
+  }
+  .search {
+    text-align: center;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 40px;
+  }
