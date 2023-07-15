@@ -41,16 +41,21 @@ body {
     height: auto;
   }
   .footer img {
-    width: 100%;
+    width: 130%;
+    margin: 100px 0 0 0;
   }
   .footer li {
     list-style: none;
-    padding: 10px 0 0 0;
+    margin: 0 0 10px -30px;
+    
   }
   .footer a {
     text-decoration: none;
     color: black;
     cursor: pointer;
+  }
+  .footer a:hover{
+    color: gold;
   }
   
   /*---- form ----*/
@@ -76,10 +81,16 @@ body {
     font-size: 12px;
   }
   .footer button {
+    margin: 19px 0;
     background-color: gold;
     padding: 5px 25px;
     border: 1px solid;
     border-radius: 20px;
+  }
+  .footer button:hover{
+    padding: 7px 28px;
+    color: white;
+    
   }
   
   /*------------------ linkbar ------------*/

@@ -1,9 +1,11 @@
 body {
     font-family: "Montserrat", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
   }
   * {
     box-sizing: border-box;
+    
   }
   /*-------------- general  styles ---------------*/
   .container {
@@ -27,6 +29,7 @@ body {
     background-color: rgb(255, 255, 186);
     display: flex;
     align-items: center;
+    position: relative;
   }
   .navbar .box {
     width: 33%;
@@ -57,9 +60,26 @@ body {
   .navbar a:hover {
     text-decoration: underline gold 30%;
   }
+  .navbar a:visited{
+    text-decoration: underline gold 30%;
+
+  }
+  .navbar a:target{
+    text-decoration: underline gold 30%;
+
+  }
   .search {
     text-align: center;
-    padding: 10px 50px;
+    padding: 11px 50px;
     border: none;
     border-radius: 40px;
+  }
+  .input-icons i{
+    position: relative;    
+    left: 275px;
+    top: 1px;
+    padding: 10px 19px 10px 17px;
+    background-color: gold;
+    border-radius: 0 17px 17px 0;
+    color: white;
   }

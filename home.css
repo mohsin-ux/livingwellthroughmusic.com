@@ -24,6 +24,7 @@ body {
 /* -------------- background ---------------- */
 .background {
   height: 650px;
+  margin: 0;
   background: rgba(0, 0, 0, 0.7) url("../pictures/img1.jpg");
   background-size: cover;
   object-fit: cover;
@@ -81,7 +82,8 @@ body {
 }
 .services button:hover{
   cursor: pointer;
-  box-shadow: 0 0 10px 5px lightgray
+  box-shadow: 0 0 10px 1px lightgray;
+  transition: 10 10 10 10;
 }
 .services a {
   padding: 10px;
