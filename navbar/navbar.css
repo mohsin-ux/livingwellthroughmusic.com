@@ -55,25 +55,20 @@ body {
     color: white;
   }
   .navbar .box img {
+    width: 100%;
     height: 300px;
   }
   .navbar a:hover {
     text-decoration: underline gold 30%;
   }
-  .navbar a:visited{
-    text-decoration: underline gold 30%;
 
-  }
-  .navbar a:target{
-    text-decoration: underline gold 30%;
-
-  }
   .search {
     text-align: center;
     padding: 11px 50px;
     border: none;
     border-radius: 40px;
   }
+
   .input-icons i{
     position: relative;    
     left: 275px;
