@@ -51,7 +51,7 @@ body {
   object-fit: cover;
 }
 .services .text {
-  padding: 10px 35px 0 25px;
+  padding: 0 40px 0 25px;
 }
 .services p {
   font-size: 0.9rem;
@@ -61,6 +61,6 @@ body {
   margin: 0;
 }
 .services .innerbox:hover {
-  box-shadow: 0 0 11px 10px lightgray;
+  box-shadow: 0 0 11px 10px gold;
 }
 

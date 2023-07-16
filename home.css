@@ -96,6 +96,10 @@ body {
 .services .text {
   height: 150px;
 }
+.services .a:hover{
+  color: gold;
+  text-decoration: underline;
+}
 
 /* --------------- about me ----------- */
 .about-me {
@@ -121,4 +125,7 @@ body {
 }
 .about-me a {
   color: black;
+}
+.about-me a:hover{
+  color: gold;
 }

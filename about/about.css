@@ -46,6 +46,9 @@ body {
   .about-me a {
     color: black;
   }
+  .about-me a:hover{
+    color: gold;
+  }
   .about-me p{
     line-height: 1.9rem;
   }

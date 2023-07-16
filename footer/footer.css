@@ -33,7 +33,7 @@ body {
   .footer .box {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    grid-template-columns: 1fr 1fr 1fr 2.5fr;
     grid-template-rows: 500px;
   }
   .footer .innerbox {
@@ -42,7 +42,7 @@ body {
   }
   .footer img {
     width: 130%;
-    margin: 100px 0 0 0;
+    margin: 100px 0 0 -40px;
   }
   .footer li {
     list-style: none;
@@ -60,18 +60,20 @@ body {
   
   /*---- form ----*/
   .footer .input {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 25px;
   }
   .footer input {
     width: 100%;
-    padding: 5px 0;
+    padding: 5px 10px;
     margin: 0 0 20px 0;
     border: 0.1px solid;
   }
   textarea {
     width: 100%;
-    height: 70px;
+    padding: 5px 10px;
+    height: 85px;
     margin: 0 0 0px;
   }
   .color {
@@ -96,14 +98,13 @@ body {
   /*------------------ linkbar ------------*/
   
   .linkbar {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr;
-  
+    text-align: center;
   }
+
   .linkbar .links {
-    width: 70%;
+    /* width: 70%; */
     display: flex;
+    justify-content: center;
     gap: 30px;
   }
   .linkbar .faicon{
