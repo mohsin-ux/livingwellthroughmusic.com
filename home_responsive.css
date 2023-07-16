@@ -1,0 +1,40 @@
+
+@media(max-width: 425px){
+
+/* -------------- background ------------ */
+
+
+.para{
+    line-height: 20px;
+}
+.background{
+    padding: 20px;
+}
+.background .text{
+    width: 100%;
+    /* height: 80%; */
+}
+
+/* -------------- services ------------ */
+
+.services .box{
+    display: block;
+
+}
+.services .innerbox{
+    width: 100%;
+}
+
+/* ---------------- about me --------------- */
+.about-me .box{
+    display: block;
+}
+.about-me .innerbox{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+}
+

@@ -31,7 +31,6 @@ body {
   height: 100px;
   display: flex;
   align-items: center;
-  /* background-color: green; */
   position: relative;
 }
 .navbar .innerbox {
@@ -96,7 +95,6 @@ body {
 
 @media (max-width: 425px) {
   .navbar .innerbox {
-    /* background-color: red; */
     display: block;
   }
 
@@ -153,11 +151,8 @@ body {
     margin: 20px 20px;
     transition: 1s ease;
     display: none;
-    /* background-color:  green; */
   }
-  .icon .bar{
-    /* background-color: white;   */
-  }
+
   .icon #bar1 {
     transform: translateY(14px) rotate(-45deg);
   }
