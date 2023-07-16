@@ -92,6 +92,7 @@ body {
 
 @media (max-width: 425px) {
   .navbar .box {
+    width: 100%;
     /* background-color: red; */
   }
   .navbar .box1 ul {
@@ -103,9 +104,7 @@ body {
   .navbar img {
     display: none;
   }
-  /* .navbar .box2 {
-    display: none;
-  } */
+
  
   .navbar .box3 {
     display: none;
