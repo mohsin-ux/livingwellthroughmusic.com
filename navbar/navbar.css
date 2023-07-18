@@ -24,9 +24,11 @@ body {
 
 /* ----------------- navbar -------------------- */
 .navbar {
+  max-width: 1920px;
+  margin: auto;
   background-color: rgb(255, 255, 186);
-  position: relative;
-
+  /* position: relative; */
+  transition: 1s ease;
 }
 .navbar .box {
   width: 100%;
@@ -56,41 +58,50 @@ body {
   display: inline-block;
   margin: 0 1rem;
   color: white;
+  padding: 1.5rem 0 1.5rem 0;
 }
 .navbar .innerbox img {
-  width: 100%;
+  width: 450px;
   height: 300px;
 }
-.navbar a:hover {
+.navbar li:hover {
+  cursor: pointer;
   text-decoration: underline gold 30%;
 }
 
 .search {
   text-align: center;
   padding: 11px 50px;
-  border: none;
+  font-size: 15px;
+  border: 1px solid gold;
+  outline: none;
   border-radius: 40px;
+  
+}
+.search input::placeholder{
+  color: rgb(88, 88, 88);
+}
+.input-icons {
+  position: relative;
 }
 
 .input-icons i {
-  position: relative;
-  left: 275px;
+  position: absolute;
+  right: 1.2px;
   top: 1px;
-  padding: 10px 19px 10px 17px;
+  padding: 10px 22px 13px 17px;
   background-color: gold;
   border-radius: 0 17px 17px 0;
   color: white;
+  /* z-index: -100; */
 }
 .navbar .box .img {
-  width: 100%;
+  width: 90%;
   height: 300px;
   display: none;
   margin: 0 0 0 -14px;
+  /* object-fit: cover; */
 }
-
-
-
-
 
 /*---------------- @media queries -----------------*/
 
@@ -109,11 +120,9 @@ body {
   .navbar .box3 {
     display: none;
   }
-  .navbar .box2{
+  .navbar .box2 {
     display: none;
   }
-
-
 
   /* ------hamburger---- */
   #menu {
@@ -129,7 +138,7 @@ body {
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
-    margin: 2px 0 ;
+    margin: 2px 0;
   }
 
   /* #bar1{
@@ -141,7 +150,7 @@ body {
 
   .nav li a:hover {
     border: 1px solid white;
-    padding: 10px; 
+    padding: 10px;
   }
   .nav li {
     list-style: none;
@@ -163,9 +172,11 @@ body {
   .icon #bar2 {
     opacity: 0;
   }
-  .change{
+  .change {
+    /* position: absolute; */
+    top: 40px;
     background-color: gold;
-    height: 50vh;
+    height: 80%;
     margin: 0;
     position: absolute;
     font-size: 30px;

@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
 }
 * {
@@ -19,23 +19,37 @@ body {
   letter-spacing: 1px;
   stroke: red;
   stroke-width: 500px;
+  /* color: gray; */
+}
+iframe{
+  width: 100%;
+  border: none;
 }
 
 /* -------------- background ---------------- */
 .background {
-  z-index: -100;
-  height: 650px;
-  margin: 0;
+  max-width: 100%;
+  height: 640px;
+  margin: -3.9px 0 0 0;
   background: rgba(0, 0, 0, 0.7) url("../pictures/img1.jpg");
   background-size: cover;
+  background-position-y:center;
   object-fit: cover;
   background-blend-mode: darken;
   color: white;
   padding: 100px 70px;
 }
 .background .text {
-  width: 50%;
+  width: 60%;
   height: 80%;
+}
+.background p{
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  word-spacing: 0.2rem;
+}
+.background h1{
+  font-size: 2.2rem;
 }
 .background a{
   text-decoration: none;
@@ -45,14 +59,18 @@ body {
   color: gold;
 }
 
+
 /* ------------ services offered ------------ */
 .services {
+  max-width: 100%;
+  margin: auto;  
   padding: 30px;
 }
 .services .box {
   height: inherit;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 13px;
 }
 .services .innerbox {
@@ -72,7 +90,7 @@ body {
 .services img {
   width: 35%;
   height: 120px;
-  border-radius: 90%;
+  border-radius: 100%;
   object-fit: cover;
 }
 .services button {
@@ -84,7 +102,7 @@ body {
 .services button:hover{
   cursor: pointer;
   box-shadow: 0 0 10px 1px lightgray;
-  transition: 10 10 10 10;
+  /* transition: 10 10 10 10;  */
 }
 .services a {
   padding: 10px;
@@ -92,7 +110,7 @@ body {
   text-decoration: none;
 }
 .services h5 {
-  margin: 20px;
+  margin: 20px  ;
 }
 .services .text {
   height: 150px;
@@ -104,20 +122,26 @@ body {
 
 /* --------------- about me ----------- */
 .about-me {
-  padding: 30px;
+  
+  width: 100%;
+  margin: auto;
+  padding: 30px 0;
 }
-.about-me .box {
+.box1 {
   margin: 25px 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
 }
-.about-me .innerbox {
-  width: 46.8%;
+.box1 .innerbox {
+  width: 43%;
+  margin: 0;
   height: 300px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .about-me img {
   width: 100%;
@@ -129,6 +153,10 @@ body {
 }
 .about-me a:hover{
   color: gold;
+}
+.about-me p {
+  color: rgb(88, 88, 88);
+  line-height: 1.9rem;
 }
 
 

@@ -1,40 +1,262 @@
+/* =============== ******** background Responsive *********=============== */
 
-@media(max-width: 425px){
+@media (max-width: 2560px) and (min-width: 1440px) {
 
-/* -------------- background ------------ */
-
-
-.para{
-    line-height: 20px;
+  .heading2 {
+    font-size: 2rem;
+  }
+  .background {
+    width: 1920px;
+    margin: -3px auto;
+    height: 800px;
+  }
+  .background p {
+    font-size: 2rem;
+  }
+  .background h1 {
+    font-size: 2.9rem;
+  }
+  .background .text {
+    width: 60%;
+  }
 }
-.background{
-    padding: 20px;
+@media (max-width: 1225px) and (min-width: 768px) {
+  .background {
+    height: 540px;
+  }
+  .background p {
+    line-height: 2.2rem;
+  }
+  .background h1 {
+    font-size: 2rem;
+  }
 }
-.background .text{
+@media (max-width: 768px) and (min-width: 425px) {
+  .background {
+    height: 490px;
+  }
+  .background p {
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+  }
+  .background h1 {
+    font-size: 1.8rem;
+  }
+  .background .text {
     width: 100%;
-    /* height: 80%; */
+  }
 }
-
-/* -------------- services ------------ */
-
-.services .box{
-    display: block;
-
-}
-.services .innerbox{
+@media (max-width: 425px) and (min-width: 375px) {
+  .background {
+    background-position-x: center;
+    height: 420px;
+    padding: 40px 30px;
+  }
+  .background .text {
     width: 100%;
+  }
+  .background p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .background h1 {
+    font-size: 1.5rem;
+  }
 }
-
-/* ---------------- about me --------------- */
-.about-me .box{
-    display: block;
-}
-.about-me .innerbox{
+@media (max-width: 375px) {
+  .background {
+    background-position-x: center;
+    height: 370px;
+    padding: 15px 26px;
+  }
+  .background .text {
     width: 100%;
-    height: 200px;
+  }
+  .background p {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+  .background h1 {
+    font-size: 1.5rem;
+  }
 }
 
 
 
+/* ===============********** Services Responsive ************=============== */
+
+@media (min-width: 2560px)and (min-width: 1440px)  {
+
+  .services {
+    max-width: 1920px;
+    margin: auto;
+  }
+  .services img{
+    height: 190px;
+  }
+  .services .innerbox {
+    height: 550px;
+    padding: 30px 25px;
+  }
+  .services p {
+    font-size: 1.6rem;
+  }
+  .services h4 {
+    font-size: 1.8rem;
+  }
+  .services .text{
+    height: 190px;
+  }
+}
+@media (max-width: 1225px) and (min-width: 768px) {
+    .services {
+        width: 100%;
+        margin: 0;
+      }
+      .services img{
+        height: 100px;
+      }
+      .services .innerbox {
+        height: 340px;
+        padding: 30px 10px;
+      }
+      .services p {
+        font-size: 1rem;
+      }
+      .services h4 {
+        font-size: 1.1rem;
+        padding: 0;
+        margin: 13px 0;
+      }
+      .services .text{
+        height: 130px;
+      }
+}
+@media (max-width: 768px) and (min-width: 425px){
+    .services {
+        width: 100%;
+        margin: 0;
+      }
+      .services img{
+        height: 60px;
+      }
+      .services .innerbox {
+        height: 200px;
+        padding: 26px 12px;
+      }
+      .services p {
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+      }
+      .services h4 {
+        font-size: 0.7rem;
+        margin: 4px 0;
+      }
+      .services .text{
+        height: 70px;
+      }
+      .services button{
+        padding: 3px 10px;
+        font-size: 0.6rem;
+      }
+}
+@media (max-width: 425px) {
+    .services .box{
+        display: block;
+    }
+    .services {
+        width: 100%;
+        margin: 0 ;
+      }
+      .services img{
+        width: 33%;
+        height: 90px;
+      }
+      .services .innerbox {
+        width: 100%;
+        height: 250px;
+        padding: 26px 12px;
+      }
+      .services p {
+        font-size: 0.9rem;
+        line-height: 0.8rem;
+      }
+      .services h4 {
+        font-size: 1.2rem;
+        margin: 4px 0;
+      }
+      .services .text{
+        height: 90px;
+      }
+      .services button{
+        padding: 3px 10px;
+        font-size: 0.6rem;
+      }
+}
+@media (max-width: 375px) {
+  
 }
 
+/* ===============********** About-me Responsive ************=============== */
+
+@media (min-width: 2560px) and (min-width: 1440px)  {
+  .about-me{
+    max-width: 1920px;
+    margin: auto;
+  }
+  .box1 .innerbox{
+    width: 48.5%;
+    height: 450px;
+  }
+  .about-me p{
+    font-size: 2.1rem;
+    line-height: 2.8rem;
+  }
+
+}
+
+@media (max-width: 1225px) and (min-width: 768px) {
+}
+@media (max-width: 768px) and (min-width: 425px){
+
+}
+@media (max-width: 425px) {
+    .about-me{
+        margin: 0;
+    }
+    .box1{
+        /* display: block; */
+        gap: 0;
+    }
+    .box1 .innerbox:nth-child(3){
+        order: 2;
+    }
+    .box1 .innerbox:nth-child(5){
+        order: 1;
+    }
+    .about-me .innerbox{
+        width: 90%;
+    }
+    .about-me p{
+        line-height: 1.3rem;
+    }
+    .iframe{
+      height: 900px;
+    }
+}
+
+
+
+
+
+/* ===============********** About-me Responsive ************=============== */
+
+@media (min-width: 2560px) and (min-width: 1440px)  {
+}
+
+@media (max-width: 1225px) and (min-width: 768px) {
+}
+@media (max-width: 768px) and (min-width: 425px){
+}
+@media (max-width: 425px) {
+}

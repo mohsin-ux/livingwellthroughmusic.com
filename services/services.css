@@ -1,3 +1,7 @@
+html{
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -9,7 +13,7 @@ body {
 
 /*-------------- general  styles ---------------*/
 .container {
-  margin: 0 6%;
+  margin: 0 5%;
 }
 .heading2 {
   font-size: x-large;
@@ -21,20 +25,27 @@ body {
   line-height: 30px;
   letter-spacing: 1px;
 }
+iframe{
+  width: 100%;
+  /* margin: a  uto; */
+}
 
 
 /* ---------------- services ------------------ */
 .services {
+  max-width: 100%;
   padding: 20px;
 }
 .services .box {
   padding: 50px 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 70px 30px;
 }
 .services .innerbox {
-  width: 48%;
+  max-width: 46%;
   height: 220px;
   border-radius: 7rem;
   display: grid;
@@ -54,13 +65,15 @@ body {
   padding: 0 40px 0 25px;
 }
 .services p {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
-.services h2 {
-  font-size: 1.4rem;
-  margin: 0;
+.services h3 {
+  font-size: 1.7rem;
+  /* margin:; */
 }
 .services .innerbox:hover {
   box-shadow: 0 0 11px 10px gold;
 }
+
+/*================ @media queries ===================*/
 
