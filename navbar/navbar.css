@@ -18,14 +18,12 @@ body {
 .para {
   line-height: 30px;
   letter-spacing: 1px;
-  stroke: red;
-  stroke-width: 500px;
+
 }
 
 /* ----------------- navbar -------------------- */
 .navbar {
-  max-width: 1920px;
-  margin: auto;
+  width: 100%;
   background-color: rgb(255, 255, 186);
   /* position: relative; */
   transition: 1s ease;
@@ -46,7 +44,7 @@ body {
 .navbar .innerbox ul {
   list-style: none;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .navbar li a {
   text-decoration: none;
@@ -55,7 +53,7 @@ body {
   cursor: pointer;
 }
 .navbar li {
-  display: inline-block;
+  display: inline;
   margin: 0 1rem;
   color: white;
   padding: 1.5rem 0 1.5rem 0;
@@ -101,91 +99,4 @@ body {
   display: none;
   margin: 0 0 0 -14px;
   /* object-fit: cover; */
-}
-
-/*---------------- @media queries -----------------*/
-
-@media (max-width: 425px) {
-  .navbar .innerbox {
-    display: block;
-  }
-
-  .navbar .box .img {
-    display: block;
-  }
-  .navbar img {
-    display: none;
-  }
-
-  .navbar .box3 {
-    display: none;
-  }
-  .navbar .box2 {
-    display: none;
-  }
-
-  /* ------hamburger---- */
-  #menu {
-    width: 35px;
-    height: 30px;
-    margin: 30px 0 20px 20px;
-    cursor: pointer;
-    z-index: 100;
-  }
-  .bar {
-    height: 5px;
-    background-color: black;
-    display: block;
-    border-radius: 5px;
-    transition: 0.3s ease;
-    margin: 2px 0;
-  }
-
-  /* #bar1{
-    transform: translateY(-4px);
-  }
-  #bar2{
-    transform: translateY(4px);
-  } */
-
-  .nav li a:hover {
-    border: 1px solid white;
-    padding: 10px;
-  }
-  .nav li {
-    list-style: none;
-    padding: 16px 0;
-  }
-  .nav {
-    padding: 0;
-    margin: 20px 20px;
-    transition: 1s ease;
-    display: none;
-  }
-
-  .icon #bar1 {
-    transform: translateY(14px) rotate(-45deg);
-  }
-  .icon #bar3 {
-    transform: translate(-1px) rotate(45deg);
-  }
-  .icon #bar2 {
-    opacity: 0;
-  }
-  .change {
-    /* position: absolute; */
-    top: 40px;
-    background-color: gold;
-    height: 80%;
-    margin: 0;
-    position: absolute;
-    font-size: 30px;
-    top: 0;
-    /* z-index: -100; */
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 }
