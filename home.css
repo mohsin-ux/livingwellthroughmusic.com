@@ -62,9 +62,7 @@ iframe{
 
 /* ------------ services offered ------------ */
 .services {
-  max-width: 100%;
-  margin: auto;  
-  padding: 30px;
+  padding: 30px 0;
 }
 .services .box {
   height: inherit;
@@ -74,9 +72,9 @@ iframe{
   gap: 13px;
 }
 .services .innerbox {
-  width: 32%;
+  width: 30%;
   height: 380px;
-  padding: 30px 10px;
+  padding: 30px 15px;
   margin: 20px 10px;
   border: 1px solid;
   background-color: rgb(255, 255, 186);
@@ -88,8 +86,8 @@ iframe{
   box-shadow: 0 0 10px 4px lightgray;
 }
 .services img {
-  width: 35%;
-  height: 120px;
+  width: 41%;
+  height: 130px;
   border-radius: 100%;
   object-fit: cover;
 }
@@ -109,11 +107,12 @@ iframe{
   color: black;
   text-decoration: none;
 }
-.services h5 {
+.services h4 {
   margin: 20px  ;
+  font-size: 1.1rem;
 }
 .services .text {
-  height: 150px;
+  height: 130px;
 }
 .services .a:hover{
   color: gold;
@@ -123,8 +122,8 @@ iframe{
 /* --------------- about me ----------- */
 .about-me {
   
-  width: 100%;
-  margin: auto;
+  /* width: 100%; */
+  /* margin: auto; */
   padding: 30px 0;
 }
 .box1 {
@@ -136,8 +135,7 @@ iframe{
   gap: 50px;
 }
 .box1 .innerbox {
-  width: 43%;
-  margin: 0;
+  width: 46%;
   height: 300px;
   display: flex;
   align-items: center;

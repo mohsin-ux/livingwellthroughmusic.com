@@ -1,3 +1,5 @@
+
+
 /* =============== ******** background Responsive *********=============== */
 
 @media (max-width: 2560px) and (min-width: 1440px) {
@@ -50,17 +52,17 @@
   .background {
     background-position-x: center;
     height: 420px;
-    padding: 40px 30px;
+    padding: 30px 30px;
   }
   .background .text {
     width: 100%;
   }
   .background p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.5rem;
   }
   .background h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 375px) {
@@ -108,10 +110,10 @@
     height: 190px;
   }
 }
+
 @media (max-width: 1225px) and (min-width: 768px) {
     .services {
-        width: 100%;
-        margin: 0;
+
       }
       .services img{
         height: 100px;
