@@ -73,7 +73,8 @@ iframe{
 }
 .services .innerbox {
   width: 30%;
-  height: 380px;
+  /* height: 380px; */
+  height: auto;
   padding: 30px 15px;
   margin: 20px 10px;
   border: 1px solid;
