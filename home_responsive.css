@@ -179,7 +179,7 @@
         height: 100px;
       }
       .services .innerbox {
-        width: 90%;
+        width: 95%;
         /* height: 250px; */
         height: auto;
         padding: 26px 12px;
@@ -197,8 +197,7 @@
         height: 90px;
       }
       .services button{
-        padding: 5px 20px;
-        font-size: 0.6rem;
+        padding: 7px 20px;
         font-size: 0.8rem;
       }
 }
