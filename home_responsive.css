@@ -51,7 +51,7 @@
 @media (max-width: 425px) and (min-width: 375px) {
   .background {
     background-position-x: center;
-    height: 400px;
+    height: 390px;
     padding: 30px 25px;
   }
   .background .text {
