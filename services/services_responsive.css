@@ -1,7 +1,7 @@
 
 /* =================== ********** service responsive ********* ================ */
 
-@media (max-width: 2560px) and (min-width: 1450px)  {
+@media (max-width: 2560px) and (min-width: 1460px)  {
     .services{
         max-width: 1920px;
         margin: auto;
@@ -14,12 +14,73 @@
     }
 }
 
-@media (max-width: 1225px) and (min-width: 768px) {;
+@media (max-width: 1225px) and (min-width: 768px) {
     .services{
-        background-color: blue;
+    }
+    .services p{
+        font-size: 1.4;
+    }
+    .services h3{
+        margin: 25px 0 0 0;
+        font-size: 1.6rem;
+    }
+    .services .innerbox{
+        grid-template-columns: 1.1fr 2fr;
     }
 }
-@media (max-width: 768px) and (min-width: 425px){
+@media (max-width: 768px) and (min-width: 435px){
+    .services .box{
+        display: block;
+    }
+    .services .innerbox{
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+    .services p{
+        font-size: 1.6rem;
+    }
+    .services h3{
+        font-size: 1.9rem;
+    }
+    .iframe{
+        height: 905px;
+    }
 }
-@media (max-width: 425px) {
+
+
+
+@media (max-width: 430px) {
+    .services .box{
+        display: block;
+        height: auto;
+    }
+    .services .innerbox{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 170px 200px;
+        border-radius: 110px;
+        margin: 0 0 40px 0;
+    }
+    .services .text{
+        overflow:hidden;
+        border-radius: 0 0 110px 110px;
+
+    }
+    .services img{
+        height: 170px;
+        object-fit:initial;
+        border-radius: 110px 110px 0 0;
+        /* display: none; */
+    }
+    .services p{
+        font-size: 1.4rem;
+    }
+    .services h3{
+        font-size: 1.7rem;
+    }
+    .iframe{
+        height: 920px;
+    }
 }

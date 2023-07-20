@@ -13,7 +13,7 @@ body {
 
 /*-------------- general  styles ---------------*/
 .container {
-  margin: 0 5%;
+  margin: 0 4%;
 }
 .heading2 {
   font-size: x-large;
@@ -33,7 +33,6 @@ iframe {
 
 /* ---------------- services ------------------ */
 .services {
-  /* background-color: red; */
   padding: 20px 0;
 }
 .services .box {
@@ -50,7 +49,7 @@ iframe {
   border-radius: 200px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  box-shadow: 0 0 30px -15px rgb(146, 146, 146);
+  box-shadow: 0 0 20px -5px rgb(146, 146, 146);
 }
 .services .innerbox:hover {
   background-color: rgb(255, 255, 186);
@@ -65,12 +64,14 @@ iframe {
 }
 .services .text {
   padding: 0 50px 0 25px;
+  overflow: hidden;
 }
 .services p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  color: rgb(117, 117, 117);
 }
 .services h3 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   /* margin:; */
 }
 

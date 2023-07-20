@@ -2,7 +2,7 @@
 
 /* =============== ******** background Responsive *********=============== */
 
-@media (max-width: 2560px) and (min-width: 1440px) {
+@media (min-width: 1450px) {
 
   .heading2 {
     font-size: 2rem;
@@ -87,7 +87,7 @@
 
 /* ===============********** Services Responsive ************=============== */
 
-@media (min-width: 2560px)and (min-width: 1440px)  {
+@media (min-width: 1440px)  {
 
   .services {
     max-width: 1920px;
@@ -209,7 +209,7 @@
 
 /* ===============********** About-me Responsive ************=============== */
 
-@media (min-width: 2560px) and (min-width: 1440px)  {
+@media (min-width: 1440px)  {
   .about-me{
     max-width: 1920px;
     margin: auto;

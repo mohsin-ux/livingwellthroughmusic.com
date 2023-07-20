@@ -2,7 +2,6 @@
 
 @media (max-width: 2560px) and (min-width: 1450px) {
   .footer {
-    background-color: green;
     max-width: 1920px;
     margin: auto;
     /* margin: auto; */

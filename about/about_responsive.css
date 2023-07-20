@@ -1,0 +1,20 @@
+
+/* ===============********** About-me Responsive ************=============== */
+
+@media (max-width: 2560px) and (min-width: 1450px) {
+  .about-us {
+    max-width: 1920px;
+    margin: auto;
+    background-color: red;
+  }
+}
+
+@media (max-width: 1225px) and (min-width: 768px) {
+  .about-us {
+    background-color: green;
+  }
+}
+@media (max-width: 768px) and (min-width: 425px) {
+}
+@media (max-width: 425px) {
+}
