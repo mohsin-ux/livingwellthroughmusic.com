@@ -1,116 +1,107 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  /*-------------- general  styles ---------------*/
-  .container {
-    margin: 0 6%;
-  }
-  .heading2 {
-    font-size: x-large;
-    text-align: center;
-  }
-  
-  .para {
-    line-height: 30px;
-    letter-spacing: 1px;
-    stroke: red;
-    stroke-width: 500px;
-  }
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/*-------------- general  styles ---------------*/
 
+.heading2 {
+  font-size: x-large;
+  text-align: center;
+}
 
-
-
-
-
+.para {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
 
 /* ---------------- footer ------------------- */
 .footer {
-    max-width: 100%;
-    padding: 20px;
-  }
-  .footer .box {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2.5fr;
-    grid-template-rows: 500px;
-  }
-  .footer .innerbox {
-    width: 100%;
-    height: 500px;
-  }
-  .footer img {
-    width: 130%;
-    margin: 100px 0 0 -40px;
-  }
-  .footer li {
-    list-style: none;
-    margin: 0 0 10px -30px;
-    
-  }
-  .footer a {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-  }
-  .footer a:hover{
-    color: gold;
-  }
-  
-  /*---- form ----*/
-  .footer .input {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-  }
-  .footer input {
-    width: 100%;
-    padding: 5px 10px;
-    margin: 0 0 20px 0;
-    border: 0.1px solid;
-  }
-  textarea {
-    width: 100%;
-    padding: 5px 10px;
-    height: 85px;
-    margin: 0 0 0px;
-    /* outline: none */
-  }
-  .color {
-    background-color: rgb(252, 252, 121);
-  }
-  label {
-    font-size: 12px;
-  }
-  .footer button {
-    margin: 19px 0;
-    background-color: gold;
-    padding: 5px 25px;
-    border: 1px solid;
-    border-radius: 20px;
-  }
-  .footer button:hover{
-    padding: 7px 28px;
-    color: white;
-    
-  }
-  
-  /*------------------ linkbar ------------*/
-  
-  .linkbar {
-    text-align: center;
-  }
+  padding: 25px 20px;
+}
+.footer .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2.5fr;
+  grid-template-rows: auto;
+}
+.footer .innerbox {
+  height: auto;
+}
+.footer img {
+  width: 140%;
+  height: 100%;
+  margin: 0 0 0 -60px;
+}
+.footer li {
+  list-style: none;
+  margin: 0 0 10px -30px;
+  padding: 5px 0;
+  color: gray;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  color: rgb(102, 102, 102);
+}
+.footer a:hover {
+  color: gold;
+}
 
-  .linkbar .links {
-    /* width: 70%; */
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-  }
-  .linkbar .faicon{
-    font-size: 30px;
-    color: gold;
-  }
+/*---- form ----*/
+.footer .input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.footer input {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 0 0 20px 0;
+  border: 0.1px solid gray;
+}
+textarea {
+  width: 100%;
+  padding: 5px 10px;
+  height: 85px;
+  margin: 0 0 0px;
+}
+.color {
+  background-color: rgb(252, 252, 121);
+}
+label {
+  font-size: 12px;
+}
+.footer button {
+  margin: 19px 0;
+  background-color: gold;
+  padding: 5px 25px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+.footer button:hover {
+  padding: 7px 28px;
+  color: white;
+}
+.footer .display {
+  display: none;
+}
+
+/*------------------ linkbar ------------*/
+
+.linkbar {
+  text-align: center;
+}
+
+.linkbar .links {
+  /* width: 70%; */
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.linkbar .faicon {
+  font-size: 30px;
+  color: gold;
+}

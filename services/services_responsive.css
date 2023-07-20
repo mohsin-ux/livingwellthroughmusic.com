@@ -1,0 +1,25 @@
+
+/* =================== ********** service responsive ********* ================ */
+
+@media (max-width: 2560px) and (min-width: 1450px)  {
+    .services{
+        max-width: 1920px;
+        margin: auto;
+    }
+    .services h3{
+        font-size: 2.6rem;
+    }
+    .services p{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 1225px) and (min-width: 768px) {;
+    .services{
+        background-color: blue;
+    }
+}
+@media (max-width: 768px) and (min-width: 425px){
+}
+@media (max-width: 425px) {
+}

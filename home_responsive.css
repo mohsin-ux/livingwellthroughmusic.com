@@ -205,6 +205,8 @@
   
 }
 
+
+
 /* ===============********** About-me Responsive ************=============== */
 
 @media (min-width: 2560px) and (min-width: 1440px)  {
@@ -226,6 +228,9 @@
 @media (max-width: 1225px) and (min-width: 768px) {
 }
 @media (max-width: 768px) and (min-width: 425px){
+  .iframe{
+    height: 900px;
+  }
 
 }
 @media (max-width: 425px) {
@@ -257,7 +262,6 @@
 
 
 
-/* ===============********** About-me Responsive ************=============== */
 
 @media (min-width: 2560px) and (min-width: 1440px)  {
 }

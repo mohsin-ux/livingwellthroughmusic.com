@@ -1,4 +1,4 @@
-html{
+html {
   font-size: 62.5%;
 }
 
@@ -25,7 +25,7 @@ body {
   line-height: 30px;
   letter-spacing: 1px;
 }
-iframe{
+iframe {
   width: 100%;
   /* margin: a  uto; */
 }
@@ -33,8 +33,8 @@ iframe{
 
 /* ---------------- services ------------------ */
 .services {
-  max-width: 100%;
-  padding: 20px;
+  /* background-color: red; */
+  padding: 20px 0;
 }
 .services .box {
   padding: 50px 0;
@@ -45,24 +45,26 @@ iframe{
   gap: 70px 30px;
 }
 .services .innerbox {
-  max-width: 46%;
+  width: 46%;
   height: 220px;
-  border-radius: 7rem;
+  border-radius: 200px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  box-shadow: 0 0 10px 6px lightgray;
+  box-shadow: 0 0 30px -15px rgb(146, 146, 146);
 }
-.services .innerbox:hover{
+.services .innerbox:hover {
   background-color: rgb(255, 255, 186);
+  box-shadow: 0 0 30px 4px gold;
+
 }
 .services img {
   width: 100%;
   height: 220px;
-  border-radius: 7rem 0 0 7rem;
+  border-radius: 110px 0 0 110px;
   object-fit: cover;
 }
 .services .text {
-  padding: 0 40px 0 25px;
+  padding: 0 50px 0 25px;
 }
 .services p {
   font-size: 1.2rem;
@@ -71,9 +73,5 @@ iframe{
   font-size: 1.7rem;
   /* margin:; */
 }
-.services .innerbox:hover {
-  box-shadow: 0 0 11px 10px gold;
-}
 
-/*================ @media queries ===================*/
 
