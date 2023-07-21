@@ -20,7 +20,6 @@ body {
 }
 iframe {
   width: 100%;
-  margin: auto;
 }
 
 /* --------------- about me ----------- */
@@ -53,7 +52,7 @@ iframe {
   color: gold;
 }
 .about-me p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.7rem;
 }
 

@@ -1,4 +1,5 @@
 
+
 /* =================== ********** service responsive ********* ================ */
 
 @media (max-width: 2560px) and (min-width: 1460px)  {
@@ -61,18 +62,18 @@
         grid-template-columns: 1fr;
         grid-template-rows: 170px 200px;
         border-radius: 110px;
-        margin: 0 0 40px 0;
+        margin: 0 0 40px 0; 
     }
     .services .text{
         overflow:hidden;
         border-radius: 0 0 110px 110px;
+        padding: 0 25px 0 40px;
 
     }
     .services img{
         height: 170px;
-        object-fit:initial;
+        object-fit: initial;
         border-radius: 110px 110px 0 0;
-        /* display: none; */
     }
     .services p{
         font-size: 1.4rem;
@@ -83,4 +84,5 @@
     .iframe{
         height: 920px;
     }
+
 }
