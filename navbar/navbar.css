@@ -1,3 +1,19 @@
+  body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/*-------------- general  styles ---------------*/
+/* .container {
+  margin: 0 6%;
+} */
+
+iframe{
+  position: relative;
+  z-index: 1;
+}
 
 
 /* ----------------- navbar -------------------- */

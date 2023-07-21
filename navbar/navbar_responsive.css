@@ -2,7 +2,7 @@
 
 /* ===============********** Navbar Responsive ************=============== */
 
-@media  (min-width: 1440px)  {
+@media (min-width: 1440px)  {
   .navbar{
     max-width: 1920px;
     margin: auto;
@@ -48,12 +48,12 @@
     display: none;
   }
 
-  .navbar .box3, .box3 {
+  .navbar .box3 {
     display: none;
   }
-  /* .navbar .box2 {
+  .navbar .box2 {
     display: none;
-  } */
+  }
 
   /* ----------- hamburger ---------- */
   
@@ -84,6 +84,8 @@
     padding: 10px;
   }
   .nav li {
+    /* font-size: 5rem; */
+
     list-style: none;
     padding: 16px 0;
   }
@@ -103,17 +105,17 @@
     opacity: 0;
   }
   .change {
+    z-index: 100;
     padding: 0 20px 0 0;
     background-color: gold;
-    height: 100%;
     position: absolute;
     top: 79px;
     left: -20px;
-    font-size: 40px;
+    font-size: 20px;
     width: 40%;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
   }
 }
