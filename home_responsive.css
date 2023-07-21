@@ -1,9 +1,6 @@
-
-
 /* =============== ******** background Responsive *********=============== */
 
 @media (min-width: 1450px) {
-
   .heading2 {
     font-size: 2rem;
   }
@@ -83,17 +80,14 @@
   }
 }
 
-
-
 /* ===============********** Services Responsive ************=============== */
 
-@media (min-width: 1440px)  {
-
+@media (min-width: 1440px) {
   .services {
     max-width: 1920px;
     margin: auto;
   }
-  .services img{
+  .services img {
     height: 190px;
   }
   .services .innerbox {
@@ -106,169 +100,156 @@
   .services h4 {
     font-size: 1.8rem;
   }
-  .services .text{
+  .services .text {
     height: 190px;
   }
 }
 
 @media (max-width: 1225px) and (min-width: 768px) {
-    .services {
+  .services {
+  }
+  .services img {
+    height: 100px;
+  }
+  .services .innerbox {
+    /* height: 340px; */
+    height: auto;
+    padding: 30px 10px;
+  }
+  .services p {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+  .services h4 {
+    font-size: 1rem;
+    padding: 0;
+    margin: 13px 0;
+  }
+  .services .text {
+    height: 120px;
+  }
+}
+@media (max-width: 768px) and (min-width: 425px) {
+  .services {
+    width: 100%;
+    margin: 0;
+  }
+  .services img {
+    height: 60px;
+  }
+  .services .innerbox {
+    height: 200px;
+    padding: 26px 12px;
+  }
+  .services p {
+    font-size: 0.6rem;
+    line-height: 0.6rem;
+  }
+  .services h4 {
+    font-size: 0.7rem;
+    margin: 4px 0;
+  }
+  .services .text {
+    height: 70px;
+  }
+  .services button {
+    padding: 3px 10px;
+    font-size: 0.6rem;
+  }
+}
 
-      }
-      .services img{
-        height: 100px;
-      }
-      .services .innerbox {
-        /* height: 340px; */
-        height: auto;
-        padding: 30px 10px;
-      }
-      .services p {
-        font-size: 0.9rem;
-        line-height: 1rem;
-      }
-      .services h4 {
-        font-size: 1rem;
-        padding: 0;
-        margin: 13px 0;
-      }
-      .services .text{
-        height: 120px;
-      }
-}
-@media (max-width: 768px) and (min-width: 425px){
-    .services {
-        width: 100%;
-        margin: 0;
-      }
-      .services img{
-        height: 60px;
-      }
-      .services .innerbox {
-        height: 200px;
-        padding: 26px 12px;
-      }
-      .services p {
-        font-size: 0.6rem;
-        line-height: 0.6rem;
-      }
-      .services h4 {
-        font-size: 0.7rem;
-        margin: 4px 0;
-      }
-      .services .text{
-        height: 70px;
-      }
-      .services button{
-        padding: 3px 10px;
-        font-size: 0.6rem;
-      }
-}
 @media (max-width: 425px) {
-
-    .services .box{
-        display: block;
-        
-    }
-    .services {
-        /* width: 100%; */
-        /* margin: 0 ; */
-      }
-      .services img{
-        width: 33%;
-        height: 100px;
-      }
-      .services .innerbox {
-        width: 95%;
-        /* height: 250px; */
-        height: auto;
-        padding: 26px 12px;
-        margin: 20px auto;
-      }
-      .services p {
-        font-size: 0.9rem;
-        line-height: 0.9rem;
-      }
-      .services h4 {
-        font-size: 1.2rem;
-        margin: 4px 0;
-      }
-      .services .text{
-        height: 100px;
-      }
-      .services button{
-        padding: 7px 20px;
-        font-size: 0.8rem;
-      }
+  .services .box {
+    display: block;
+  }
+  .services {
+    /* width: 100%; */
+    /* margin: 0 ; */
+  }
+  .services img {
+    width: 33%;
+    height: 100px;
+  }
+  .services .innerbox {
+    width: 95%;
+    height: auto;
+    padding: 26px 12px;
+    margin: 20px auto;
+  }
+  .services p {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+  .services h4 {
+    font-size: 1rem;
+    margin: 4px 0;
+  }
+  .services .text {
+    height: 110px;
+  }
+  .services button {
+    padding: 7px 20px;
+    font-size: 0.8rem;
+  }
 }
 @media (max-width: 375px) {
-  
 }
-
-
 
 /* ===============********** About-me Responsive ************=============== */
 
-@media (min-width: 1440px)  {
-  .about-me{
+@media (min-width: 1440px) {
+  .about-me {
     max-width: 1920px;
     margin: auto;
   }
-  .box1 .innerbox{
+  .box1 .innerbox {
     width: 48.5%;
     height: 450px;
   }
-  .about-me p{
+  .about-me p {
     font-size: 2.1rem;
     line-height: 2.8rem;
   }
-
 }
 
 @media (max-width: 1225px) and (min-width: 768px) {
 }
-@media (max-width: 768px) and (min-width: 425px){
-  .iframe{
+@media (max-width: 768px) and (min-width: 425px) {
+  .iframe {
     height: 900px;
   }
-
 }
 @media (max-width: 425px) {
-    .about-me{
-        margin: 0;
-    }
-    .box1{
-        /* display: block; */
-        gap: 0;
-    }
-    .box1 .innerbox:nth-child(3){
-        order: 2;
-    }
-    .box1 .innerbox:nth-child(5){
-        order: 1;
-    }
-    .about-me .innerbox{
-        width: 90%;
-    }
-    .about-me p{
-        line-height: 1.3rem;
-    }
-    .iframe{
-      height: 900px;
-    }
+  .about-me {
+    margin: 0;
+  }
+  .box1 {
+    /* display: block; */
+    gap: 0;
+  }
+  .box1 .innerbox:nth-child(3) {
+    order: 2;
+  }
+  .box1 .innerbox:nth-child(5) {
+    order: 1;
+  }
+  .about-me .innerbox {
+    width: 90%;
+  }
+  .about-me p {
+    line-height: 1.3rem;
+  }
+  .iframe {
+    height: 900px;
+  }
 }
 
-
-
-
-
-
-@media (min-width: 2560px) and (min-width: 1440px)  {
+@media (min-width: 2560px) and (min-width: 1440px) {
 }
 
 @media (max-width: 1225px) and (min-width: 768px) {
 }
-@media (max-width: 768px) and (min-width: 425px){
+@media (max-width: 768px) and (min-width: 425px) {
 }
 @media (max-width: 425px) {
 }
