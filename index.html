@@ -7,6 +7,8 @@
     <title>abdullah</title>
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="home_responsive.css">
+    <link rel="stylesheet" href="navbar/navbar.css">
+    <link rel="stylesheet" href="navbar/navbar_responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -14,7 +16,52 @@
 <body>
 
     <!-- ----------------- navbar --------------- -->
-    <iframe src="../navbar/navbar.html" scrolling="no" height="100px"></iframe>
+    <!-- <iframe src="../navbar/navbar.html" target="top" scrolling="no" height="100px"></iframe> -->
+        <!-- ------------- navbar ------------- -->
+
+        <nav class=" navbar">
+
+            <div class="box">
+    
+                <div class="innerbox box1 item1">
+                    <div id="menu" onclick="onClickMenu()">
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+                    </div>
+                    <ul class="nav" id="nav">
+                        <li><b><a href="../index.html" target="_top">HOME</a></b></li>
+                        <li><b><a href="../services/services.html" target="_top">SERVICES</a></b></li>
+                        <li><b><a href="../about/about.html" target="_top">ABOUT</a></b></li>
+                        <li><b><a href="../contact_us/contact.html" target="_top">CONTACT</a></b></li>
+                    </ul>
+                </div>
+    
+                
+                <!-- --------- media pic ---------- -->
+                <div>
+                    <img class="img" src="../pictures/logo-2.png">
+                </div>
+    
+    
+    
+                <div class="innerbox box2">
+                    <img src="../pictures/logo-2.png">
+                </div>
+                <div class="innerbox box3">
+                    <div class="input-icons">
+                        <i class="fa fa-search" icon"></i>
+                        <input class="search" placeholder="search here" type="text">
+                    </div>
+                </div>
+            </div>
+    
+        </nav>
+    
+        <script src="navbar/navbar.js"></script>
+    
+
+
 
     <!-- ----------- background ----------- -->
     <div class="background">

@@ -1,24 +1,4 @@
-  body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-}
-* {
-  box-sizing: border-box;
-}
-/*-------------- general  styles ---------------*/
-.container {
-  margin: 0 6%;
-}
-.heading2 {
-  font-size: x-large;
-  text-align: center;
-}
 
-.para {
-  line-height: 30px;
-  letter-spacing: 1px;
-
-}
 
 /* ----------------- navbar -------------------- */
 .navbar {
