@@ -21,8 +21,11 @@
     .contact p{
         font-size: 0.8rem;
     }
-
-@media (max-width: 425px) {
+    .iframe{
+        height: 900px;
+    }
+}
+@media (max-width: 435px) {
 
     .iframe{
         height: 900px;

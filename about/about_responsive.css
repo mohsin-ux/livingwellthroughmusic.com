@@ -41,6 +41,10 @@
     height: 170px;
   }
 }
+
+
+
+
 @media (max-width: 425px) {
   .about-me .box{
     flex-direction: column;
