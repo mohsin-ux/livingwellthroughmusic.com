@@ -19,17 +19,20 @@
 
 @media (max-width: 1225px) and (min-width: 768px) {
   .navbar .innerbox ul {
+    align-items: center;
     justify-content: flex-start;
-    margin: 0 0 0 -20px;
+    /* margin: 0 0 0 -20px; */
+  }
+  .navbar .box1{
+    gap: 0;
   }
   .navbar li {
-    margin: 5px;
-    padding: 0;
+    margin: 5px ;
   }
-  .navbar.item1 ul li {
-    margin: 0 10px 0 80px;
-    padding: 0;
+  .navbar ul{
+    margin: 0 0 0 -25px;
   }
+
 
 }
 
