@@ -24,7 +24,7 @@ body {
 
   /* ------------------- contact ----------------- */
   .contact{
-    height: 400px;
+    height: auto;
     /* background-color: red; */
     text-align: center;
   }
@@ -43,22 +43,26 @@ body {
     grid-template-columns: 1fr 1fr;    
     grid-template-rows: 100px 100px;
     padding: 50px 0;
-    align-content: center;
+    /* align-content: center; */
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
   }
   .contact .innerbox{
     display: flex;
+    align-items: center;
   }
   .contact .faicon{
-    font-size: 45px;
-    margin: 0 30px;
+    font-size: 46px;
+    margin: 0 30px 0 0;
     color: gold;
   }
   .contact a{
     text-decoration: none;
     color: black;
     }
+    
 
 
 

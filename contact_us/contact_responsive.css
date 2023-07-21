@@ -1,0 +1,37 @@
+
+
+/* ===============********** About-me Responsive ************=============== */
+
+
+@media(min-width: 1450px)  {
+    .contact{
+        background-color: red;
+        max-width: 1920px;
+        margin: auto;
+    }
+    .contact .box{
+        justify-items: center;
+    }
+}
+
+@media (max-width: 1225px) and (min-width: 768px) {
+
+}
+@media (max-width: 768px) and (min-width: 425px){
+    .contact p{
+        font-size: 0.8rem;
+    }
+
+@media (max-width: 425px) {
+
+    .iframe{
+        height: 900px;
+    }
+    .contact .box{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 90px);
+    }
+    .contact p{
+        font-size: 0.8rem;
+    }
+}

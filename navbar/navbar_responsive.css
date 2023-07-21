@@ -2,7 +2,11 @@
 
 /* ===============********** About-me Responsive ************=============== */
 
-@media (min-width: 2560px) and (min-width: 1440px)  {
+@media  (min-width: 1440px)  {
+  .navbar{
+    max-width: 1920px;
+    margin: auto;
+  }
 
 }
 
