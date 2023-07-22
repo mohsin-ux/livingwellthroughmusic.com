@@ -1,6 +1,4 @@
-html {
-  font-size: 62.5%;
-}
+
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -40,7 +38,7 @@ iframe {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 70px 30px;
+  gap: 70px 35px;
 }
 .services .innerbox {
   width: 46%;
@@ -66,11 +64,11 @@ iframe {
   overflow: hidden;
 }
 .services p {
-  font-size: 1.4rem;
+  font-size: 0.9rem;
   color: rgb(117, 117, 117);
 }
 .services h3 {
-  font-size: 2rem;
+  font-size: 1.1rem;
   /* margin:; */
 }
 

@@ -2,11 +2,18 @@
 
 /* ===============********** Navbar Responsive ************=============== */
 
-@media (min-width: 1440px)  {
+@media (min-width: 1920px)  {
   .navbar{
     max-width: 1920px;
     margin: auto;
+    height: auto;
+
   }
+  .navbar .box1{
+    /* gap: 0; */
+  }
+
+
 
 }
 
@@ -120,4 +127,5 @@
     align-items: center;
     justify-content: center;
   }
+
 }

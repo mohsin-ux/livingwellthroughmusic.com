@@ -8,16 +8,19 @@
         margin: auto;
     }
     .services h3{
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
     .services p{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+    .services .box{
+        gap: 60px;
     }
     .services .innerbox{
-        height: 280px;
+        height: 360px;
     }
     .services img{
-        height: 280px;
+        height: 360px;
     }
 }
 
@@ -25,29 +28,35 @@
     .services{
     }
     .services p{
-        font-size: 1.4;
+        font-size: 0.7rem;
+        line-height: 20px;
     }
     .services h3{
         margin: 25px 0 0 0;
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     .services .innerbox{
         grid-template-columns: 1.1fr 2fr;
     }
 }
+
+
 @media (max-width: 768px) and (min-width: 435px){
     .services .box{
-        display: block;
+        flex-direction: column;
     }
     .services .innerbox{
-        width: 100%;
-        margin: 0 0 50px 0;
+        width: 95%;
+        height: 240px;
+    }
+    .services img{
+        height: 240px;
     }
     .services p{
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     .services h3{
-        font-size: 1.9rem;
+        font-size: 1.1rem;
     }
     .iframe{
         height: 905px;

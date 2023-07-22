@@ -84,15 +84,23 @@
 
 @media (min-width: 1440px) {
   .services {
+    box-sizing: border-box ;
     max-width: 1920px;
     margin: auto;
   }
   .services img {
     height: 190px;
   }
+  .services .box{
+    gap: 45px;
+  }
   .services .innerbox {
-    height: 550px;
+    width: 28%;
     padding: 30px 25px;
+  }
+  .services button{
+    padding: 11px 25px;
+    font-size: 1.3rem;
   }
   .services p {
     font-size: 1.6rem;
@@ -101,7 +109,7 @@
     font-size: 1.8rem;
   }
   .services .text {
-    height: 190px;
+    height: 260px;
   }
 }
 
