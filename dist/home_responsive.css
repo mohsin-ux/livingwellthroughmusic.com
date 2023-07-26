@@ -80,26 +80,25 @@
   }
 }
 
-
 /* ===============********** Services Responsive ************=============== */
 
 @media (min-width: 1440px) {
   .services {
-    box-sizing: border-box ;
+    box-sizing: border-box;
     max-width: 1920px;
     margin: auto;
   }
   .services img {
     height: 190px;
   }
-  .services .box{
+  .services .box {
     gap: 40px;
   }
   .services .innerbox {
     width: 28%;
     padding: 30px 25px;
   }
-  .services button{
+  .services button {
     padding: 11px 25px;
     font-size: 1.3rem;
   }
@@ -115,8 +114,6 @@
 }
 
 @media (max-width: 1225px) and (min-width: 768px) {
-  .services {
-  }
   .services img {
     height: 100px;
   }
@@ -170,10 +167,6 @@
 @media (max-width: 425px) {
   .services .box {
     display: block;
-  }
-  .services {
-    /* width: 100%; */
-    /* margin: 0 ; */
   }
   .services img {
     width: 33%;
