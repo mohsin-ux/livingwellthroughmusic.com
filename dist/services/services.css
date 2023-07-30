@@ -42,7 +42,7 @@ iframe {
 }
 .services .innerbox {
   width: 46%;
-  height: 220px;
+  height: 250px;
   border-radius: 200px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -55,7 +55,7 @@ iframe {
 }
 .services img {
   width: 100%;
-  height: 220px;
+  height: 250px;
   border-radius: 200px 0 0 200px;
   /* object-fit: cover; */
 }
