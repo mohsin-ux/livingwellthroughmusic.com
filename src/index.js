@@ -74,6 +74,7 @@ addUser.addEventListener("submit", (e) => {
   })
     .then(() => {
       addUser.reset();
+      alert("Your Data is Submitted Successfully");
     })
     .catch((err) => {
       console.log(err.message);

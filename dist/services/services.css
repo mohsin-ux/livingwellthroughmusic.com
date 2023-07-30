@@ -57,7 +57,7 @@ iframe {
   width: 100%;
   height: 220px;
   border-radius: 200px 0 0 200px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .services .text {
   padding: 0 50px 0 25px;

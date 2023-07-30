@@ -81,10 +81,12 @@ label {
   border: 1px solid;
   border-radius: 20px;
 }
-.footer button:hover {
-  padding: 7px 28px;
-
+.footer button:active {
+  background-color: orange;
+  /* padding: 7px 28px; */
 }
+
+
 .footer .display {
   display: none;
 }
